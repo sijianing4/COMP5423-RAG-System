@@ -4,7 +4,7 @@ import torch
 from typing import List, Dict
 
 class BasicGenerator:
-    """基础生成器 - 基于你的demo代码"""
+    """基础生成器 """
     
     def __init__(self, model_name: str = "Qwen/Qwen2.5-0.5B-Instruct"):
         """
