@@ -1,0 +1,12 @@
+requirements = '''
+transformers>=4.30.0
+torch>=2.0.0
+gradio>=3.0.0
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+bm25s>=0.2.0
+'''
+
+with open('requirements.txt', 'w') as f:
+    f.write(requirements)
